@@ -1,34 +1,46 @@
-<?php include 'includes/session.php'; ?>
-<?php include 'includes/header.php'; ?>
- <style>
-.form-control{
-	
-	width:400px;
-	
-}
+<html>
+	<?php include 'includes/session.php'; ?>
+<!--  -->
+<head>
+<link href="calendar.css" type="text/css" rel="stylesheet" />
+<meta charset="utf-8">
+<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ably Electrical Works and Impotrer">
+<meta name="author" content="webThemez.com">
+<title>Ably Electrical Works and Impotrer</title>
+<link rel="shortcut icon" href="front/images/favicon.ico">
+<link href="front/bootstrap/css/bootstrap.css" rel="stylesheet"> 
+<link href="front/fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> 
+<link href="front/css/animations.css" rel="stylesheet"> 
+<!-- <link href="front/css/style.css" rel="stylesheet">  -->
+<link href="front/css/custom.css" rel="stylesheet">
 
-.form-control{
-	width:600px;
-	height:50px;
-}
-.col-lg-7{
-margin-top:-12px;}
-</style>
+</head>
+<?php  //include 'includes/header.php'; ?>
+<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+<?php include 'includes/navbar.php'; ?>
 
 
-
-<body class="hold-transition skin-blue layout-top-nav">
-<div class="wrapper">
-
-	<?php include 'includes/navbar.php'; ?>
-
-
- <div class="content-wrapper">
-	    <div class="container">
-
-	      <!-- Main content -->
-	      <section class="content">
-	        <div class="row">
+<section  class="section clearfix no-view secPadding" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12" >
+                        <div style="
+background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(http://localhost:8090/ablycom/images/banner11.jpg) fixed center center;
+    margin-top: -40vh;
+    height: 80vh;
+    width: 300vh;
+    margin-left: -60vh;
+    background-size: cover;                        ">
+                    <div 
+                   style=" " class="section-title" >
+                    <h1 id="contact" style="color: #f4f4f4; margin-top: 0; padding-top: 54vh;"
+                    class="title text-center">Contact-Us</h1>
+						 </div> </div>
+                        <div class="space"></div>
+						<div class="row">
+							<div class="col-md-6">
 	        	<div class="col-sm-9">
       <?php
         if(isset($_SESSION['error'])){
@@ -58,28 +70,28 @@ margin-top:-12px;}
         <div class="full-row">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 mb-5 bg-primary" style="background-color:#708090;">
+                    <div class="col-lg-4 mb-5 bg-primary" style="background-color:#F13647;">
                         <div class="contact-info">
-                            <h1 class="mb-4 mt-4 text-white">Contacts</h1>
+                            <!-- <h1 class="mb-4 mt-4 text-white">Contacts</h1> -->
 							<h3>if you have any comment or If you want to get our products you can contact us here and we will get back to you as soon as possible. </h3>
                             <ul style="color:yellow;">
                                 <li class="d-flex mb-4"> <i class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h3 class="text-white">Address</h3>
-                                        <h4> <span class="text-secondary">Semien Hotel on the building where Rift Valley University in located</span> </h4>
+                                        <h4> <span style="color: white;" class="text-secondary">Semien Hotel on the building where Rift Valley University in located</span> </h4>
 										</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h3 class="text-white">Call Us</h3>
-                                         <h4><span class="d-table text-secondary">+251 (0) 911 464 023</span><br></h4>
-										 <h4><span class="text-secondary">+251(0) 912 700 908</span></h4>
+                                         <h4><span style="color: white;"  class="d-table text-secondary">+251 (0) 911 464 023</span><br></h4>
+										 <h4><span style="color: white;"  class="text-secondary">+251(0) 912 700 908</span></h4>
 									</div>
                                 </li>
                               <li class="d-flex mb-4"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                          <h3 class="text-white">Email Adderss</h3>
-										 <h4><span class="d-table text-secondary">ablyelecmkt@gmail.com</span><br></h4>
+										 <h4><span style="color: white;"  class="d-table text-secondary">ablyelecmkt@gmail.com</span><br></h4>
 										</div>
                                 </li>
                             </ul><br>
@@ -153,9 +165,17 @@ margin-top:-12px;}
 	     
 	
   
-  	<?php include 'includes/footer.php'; ?>
-	 
+     <?php include 'includes/footer.php'; ?>
+</div>
 
-<?php include 'includes/scripts.php'; ?>
+<script type="text/javascript" src="front/plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="front/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="front/plugins/modernizr.js"></script>
+		<script type="text/javascript" src="front/plugins/isotope/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="front/plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="front/plugins/jquery.appear.js"></script>
+		<script type="text/javascript" src="front/js/custom.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
